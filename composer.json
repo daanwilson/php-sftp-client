@@ -20,6 +20,6 @@
     "nicolab/php-ftp-client": "^2.0"
   },
   "autoload": {
-    "psr-0": {"FtpClient": "src/"}
+    "psr-0": {"SftpClient": "src/"}
   }
 }
