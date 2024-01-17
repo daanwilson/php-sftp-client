@@ -1,0 +1,25 @@
+{
+  "name": "daanwilson/php-sftp-client",
+  "type": "library",
+  "description": "A SFTP extension for the php-ftp-client library from Nicolas (nicolab/php-ftp-client).",
+  "license": "MIT",
+  "keywords": ["ftp", "sftp", "ssl-ftp", "ssl", "file", "server", "lib", "helper"],
+  "homepage": "https://github.com/daanwilson/php-sftp-client",
+
+	"authors"            : [
+    {
+      "name"     : "Daan Wilson",
+      "email"    : "daanwilson@gmail.com",
+      "homepage" : "https://www.daanwilson.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-ftp": "*",
+    "ext-openssl": "*",
+    "nicolab/php-ftp-client": "^2.0"
+  },
+  "autoload": {
+    "psr-0": {"FtpClient": "src/"}
+  }
+}
